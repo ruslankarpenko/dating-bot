@@ -19,7 +19,7 @@ from states import ProfileStates
 from texts import texts
 from keyboards import get_menu_keyboard
 
-API_TOKEN = '8031696694:AAE130tRVYbpYxJ5lFon7Z2UAkqDoBx31wA'
+API_TOKEN = ''
 bot_start_time = datetime.now(timezone.utc)
 
 logging.basicConfig(level=logging.INFO)
