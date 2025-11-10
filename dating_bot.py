@@ -11,7 +11,7 @@ from aiogram.utils.keyboard import ReplyKeyboardBuilder
 from aiogram.filters import Command, CommandStart
 from aiogram.client.default import DefaultBotProperties
 
-API_TOKEN = '7720196938:AAHMf8bhGHhMAyVhO2fG78Sq6dEfpWbTnw4'
+API_TOKEN = ''
 
 logging.basicConfig(level=logging.INFO)
 bot = Bot(token=API_TOKEN, default=DefaultBotProperties(parse_mode=ParseMode.MARKDOWN))
@@ -412,3 +412,4 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
