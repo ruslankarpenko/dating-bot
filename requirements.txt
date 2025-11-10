@@ -1,0 +1,6 @@
+aiogram==3.19.0
+aiosqlite==0.18.0
+Flask==3.1.0
+requests==2.32.3
+asyncio
+aiohttp
